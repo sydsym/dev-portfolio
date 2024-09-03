@@ -1,71 +1,113 @@
 /* common shared styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.primary-text{
-    color: #FD6E0A;
+.primary-text {
+  color: #fd6e0a;
 }
 
-.primary-btn{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    color: white;
-    padding: 15px 35px;
-    
+.primary-btn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  padding: 15px 35px;
 }
 
 /* Nav related styles*/
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
 }
 
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav> ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
 
-nav li{
-    list-style: none;
-    margin-right: 20px;
+nav li {
+  list-style: none;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 
 /* header related class */
 
 .header {
-    text-decoration: none;
-    background-color: #FFF8F3;
+  text-decoration: none;
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.propic{
-    width: 500px;
+.propic {
+  width: 500px;
 }
 
-.banner-content{
-    
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* about section styles */
+
+.about {
+  padding: 130px;
+  color: #fff8f3;
+  margin: 130px 0px;
+  background-color: #fff8f3;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
